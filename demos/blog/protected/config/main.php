@@ -73,4 +73,5 @@ return array(
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>require(dirname(__FILE__).'/params.php'),
+    'runtimePath' => sys_get_temp_dir(),
 );
